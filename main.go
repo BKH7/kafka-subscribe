@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 
 	"github.com/BKH7/kafka-simple/realtime/conn"
-	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
+	"gopkg.in/confluentinc/confluent-kafka-go.v1/kafka"
 )
 
 func init() {

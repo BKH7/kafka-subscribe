@@ -1,6 +1,6 @@
 {
     "kafka": {
-        "server": "127.0.0.1:9092",
+        "server": "kafka:9092",
         "consumer": {
             "topic": "mytopic",
             "groupid": "test-consumer-group"

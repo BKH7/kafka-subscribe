@@ -9,7 +9,7 @@ import (
 
 // MongoConn initial
 func MongoConn() (*mongo.Client, *mongo.Database) {
-	clientOptions := options.Client().ApplyURI("mongodb://127.0.0.1:27017")
+	clientOptions := options.Client().ApplyURI("mongodb://mongo:27017")
 	client, err := mongo.Connect(context.TODO(), clientOptions)
 	if err != nil {
 		panic("Unable to connect mongo: " + err.Error())
