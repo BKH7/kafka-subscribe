@@ -1,0 +1,15 @@
+{
+    "kafka": {
+        "server": "127.0.0.1:9092",
+        "consumer": {
+            "topic": "mytopic",
+            "groupid": "test-consumer-group"
+        }
+    },
+    "mongo": {
+        "server": "mongo",
+        "port": "27017",
+        "database": "simple",
+        "collection": "logs"
+    }
+}
